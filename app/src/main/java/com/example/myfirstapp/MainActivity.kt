@@ -1,5 +1,6 @@
 package com.example.myfirstapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
@@ -26,6 +27,10 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnOpenFile.setOnClickListener {
             filePickerLauncher.launch(arrayOf("*/*"))
+        }
+
+        binding.btnFileTransfer.setOnClickListener {
+            startActivity(Intent(this, FileTransferActivity::class.java))
         }
     }
 }

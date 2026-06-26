@@ -2,4 +2,11 @@
     <string name="app_name">MyFirstApp</string>
     <string name="hello_world">你好世界</string>
     <string name="open_file_manager">打开文件管理器</string>
+    <string name="file_transfer">文件转移</string>
+    <string name="select_source_folder">选择源文件夹</string>
+    <string name="select_target_folder">选择目标文件夹</string>
+    <string name="start_transfer">开始转移</string>
+    <string name="back">返回</string>
+    <string name="source_folder_not_selected">源文件夹: 未选择</string>
+    <string name="target_folder_not_selected">目标文件夹: 未选择</string>
 </resources>
